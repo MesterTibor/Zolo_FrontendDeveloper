@@ -1,0 +1,54 @@
+.projects-section {
+    padding: 20px;
+    background-color:#f9f9f9;
+}
+
+.projects-section h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+}
+
+.project h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #242424;
+}
+
+.project p {
+    font-size: 1rem;
+    color: #363636;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display:inline-flexbox;
+    padding: 12px;
+    background-color: #6a00ff;
+    color: #fff;
+    border-radius: 10px;
+    transition: background-color 0.6s;
+}
+
